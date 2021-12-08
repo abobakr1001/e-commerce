@@ -1,0 +1,15 @@
+
+<div class="btn-group" role="group">
+  <button class="btn btn-light color dropdown-toggle" style="position: fixed;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+    <i class="fas fa-cog"></i>
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a (click)="changeCurrentLang('en')" class="dropdown-item" href="#">english</a>
+      <hr>
+      <a (click)="changeCurrentLang('ar')" class="dropdown-item" href="#">arabic</a>
+  </div>
+</div>
+<app-navbar></app-navbar>
+
+<router-outlet></router-outlet>
+
